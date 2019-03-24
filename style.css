@@ -1,0 +1,15 @@
+body {
+    font-family: 'Creepster', cursive;
+    color:#7fff00;
+    background-color:black;
+}
+.jumbotron {
+    background-color: #af111c;
+    color: #7fff00;
+}
+.panel-heading {
+    background-color: #af111c;;
+}
+.panel {
+    background-color:#ffffff;
+}
