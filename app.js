@@ -11,7 +11,7 @@
   
    
   //Open Weather  
-  var APIKey = "5e68d3fec5ccfb64ad77db9dcbc833c7";
+  var mykey = config.MY_KEY;
   var search = "";
   var callBackResponse = "";
   
@@ -23,7 +23,7 @@
   
     function getWeather(){
       search = $("#search").val();
-      var queryURL = "http://api.openweathermap.org/data/2.5/weather?q="+search+"&units=imperial&appid=" + APIKey;
+      var queryURL = "http://api.openweathermap.org/data/2.5/weather?q="+search+"&units=imperial&appid=" + mykey;
   
       // Here we run our AJAX call to the OpenWeatherMap API
       $.ajax({
