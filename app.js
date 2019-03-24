@@ -11,7 +11,7 @@
   
    
   //Open Weather  
-  var mykey = config.MY_KEY;
+  var mykey = '5e68d3fec5ccfb64ad77db9dcbc833c7';
   var search = "";
   var callBackResponse = "";
   
