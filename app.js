@@ -9,16 +9,6 @@
     }, 1000);
   }());
   
-  // Google Custom Search for TripAdvisor Hotels and Events
-  (function() {
-      var cx = '007494034927600507137:cv0vabjru-a';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-    })();
    
   //Open Weather  
   var APIKey = "5e68d3fec5ccfb64ad77db9dcbc833c7";
