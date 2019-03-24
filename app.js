@@ -23,7 +23,7 @@
   
     function getWeather(){
       search = $("#search").val();
-      var queryURL = "http://api.openweathermap.org/data/2.5/weather?q="+search+"&units=imperial&appid=" + mykey;
+      var queryURL = "https://api.openweathermap.org/data/2.5/weather?q="+search+"&units=imperial&appid=" + mykey;
   
       // Here we run our AJAX call to the OpenWeatherMap API
       $.ajax({
